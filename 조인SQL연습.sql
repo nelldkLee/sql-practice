@@ -70,10 +70,7 @@ select a.first_name, b.dept_no, c.dept_name
    and b.dept_no is null;
 
 
-select a.first_name, b.dept_no
-  from employees a
-  left join dept_emp b on a.emp_no = b.emp_no
- where b.dept_no is null; 
+
     
    
    
